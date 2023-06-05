@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+
+main{
+    gap:30px
+}
+
+h1,p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.dados__apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #7BC6F0;
+}
+
+.dados__inicial{
+    width: 817px;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+}
+
+
+.dado__nome__sobrenome{
+    font-size: 60px;
+    
+}
+
+.dado__situacao{
+    font-size: 26px;
+    margin-top:10px ;
+
+}
+
+.dado__contato{
+    font-size: 20px;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 24px;
+}
+
+.dado__contato__contato{
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-end;
+    gap:4px 
+    
+    
+}
+.dado__icone{
+    align-items: end;
+    height: 22px;
+    width:22px
+    
+}
+
+
+.dados__inicial__2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.minha__foto{
+    height: 420px;
+    width: 420px;
+    margin: 40px;
+    
+}
+
+.redes__sociais{
+    margin-top: 15px;
+    justify-content: center;
+    
+
+}
+
+.redes__sociais__link{
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.link__midia__logo{
+   margin:10px
+}
+
+/*---------------sobre mim---*/
+
+
+.dados__pessoais__sobre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    gap:40px
+    
+}
+
+
+.foto__familia{
+height: 300px;
+width: 400px;
+
+}
+
+.sobre__mim__sobre{
+    width: 900px;
+}
+
+.sobre__mim__titulo{
+    font-size:30px;
+}
+
+.sobre__mim__paragrafo{
+    text-align: justify;
+    font-size: 18px; 
+    margin-top: 10px
+}
+/*----------Educação----*/
+
+.dados__pessoais__setor{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.dados__setor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.nome__setor{
+    font-size: 40px;
+}
+
+.caixa__padrao{
+    display: flex;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    margin: 30px;
+    background-color: #7ACAF0;
+    border: 1px solid #000000 ;
+    border-radius: 70px;
+    align-items: center;
+}
+
+
+.dados__setor__habilidades{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+    
+    
+}
+ 
+
+@media ( max-width:767px ){
+    
+    main{
+        gap:30px
+    }
+    
+    h1,p{
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .dados__apresentacao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        background-color: #7BC6F0;
+    }
+    
+    .dados__inicial{
+        height: 150px;
+        width: 817px;
+        gap: 3px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .dado__nome__sobrenome{
+        font-size: 32px;
+        
+    }
+    
+    .dado__situacao{
+        font-size: 15px;
+        margin-top:10px ;
+    
+    }
+    
+    .dado__contato{
+        font-size: 16px;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 10px;
+    }
+    
+    .dado__contato__contato{
+        display: flex;
+        margin-top: 5px;
+        align-items: center;
+        gap:4px 
+        
+        
+    }
+    .dado__icone{
+        align-items: end;
+        height: 15px;
+        width:15px
+        
+    }
+    
+    
+    .dados__inicial__2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .minha__foto{
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+        
+    }
+    
+    .redes__sociais{
+        margin-top: 15px;
+        justify-content: center;
+        
+    
+    }
+    
+    .redes__sociais__link{
+        display: flex;
+        align-items: center; 
+    }
+    
+    
+    
+    .link__midia__logo{
+        height: 30px;
+        width: 30px;
+        margin:10px
+       
+    }
+
+/*------------ setor sobre mim ----------*/
+
+.dados__pessoais__sobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 20px;
+    gap:10px
+        
+}
+
+
+.foto__familia{
+height: 270px;
+width: 350px;
+
+}
+
+
+.sobre__mim__titulo{
+    font-size:30px;
+}
+
+.sobre__mim__sobre{
+    width:auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+.sobre__mim__paragrafo{
+    
+    text-align: justify;
+    font-size: 16px; 
+    padding: 3px;
+    margin: 3px
+}
+
+/*------------ setor educação ----------*/
+
+.dados__pessoais__setor{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nome__setor{
+    font-size: 30px;
+}
+.dados__setor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.nome__setor{
+    font-size: 40px;
+}
+
+.caixa__padrao{
+    display: flex;
+    height: 120px;
+    width: 200px;
+    padding: 20px;
+    margin:10px;
+    background-color: #7ACAF0;
+    border: 1px solid #000000 ;
+    border-radius: 70px;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+.dados__setor__habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    
+    
+}
+
+
+.habilidades__imagens{
+    height: 80px;
+    width: 80px;
+
+}
+
+}
